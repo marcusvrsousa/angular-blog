@@ -1,0 +1,23 @@
+.container__menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.menu-bar__logo > img{
+    width: 48px;
+    border-radius: 100%;
+    margin-right: 24px;
+}
+
+.menu-bar_list{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-bar_list > li{
+    margin-right: 24px;
+    list-style: none;
+}
