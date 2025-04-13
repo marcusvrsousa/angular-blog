@@ -1,0 +1,37 @@
+.container__content{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.content__cover{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content__cover > img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 400px;
+    border: 2px solid white;
+    
+}
+
+
+
+.content__description{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content__back-button > a{
+    color:crimson
+}
